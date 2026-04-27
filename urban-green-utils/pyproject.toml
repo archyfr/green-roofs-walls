@@ -1,0 +1,23 @@
+[project]
+name = "urban-green-utils"
+version = "0.1.0"
+description = "Утилиты для оценки потенциала зелёных крыш и вертикальных садов"
+authors = [
+    {name = "Arina Kondratenko", email = "arinafr.99@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["green roof", "urban greening", "sustainability"]
+dependencies = []
+
+[tool.poetry]
+packages = [{include = "urban_green_utils", from = "src"}]
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "*"
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
