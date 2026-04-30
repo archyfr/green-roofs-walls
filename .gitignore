@@ -1,0 +1,6 @@
+lab5/.env
+lab5/venv/
+lab5/__pycache__/
+lab5/routes/__pycache__/
+lab5/services/__pycache__/
+__pycache__/
